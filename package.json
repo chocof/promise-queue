@@ -1,0 +1,36 @@
+{
+  "name": "promise-queue",
+  "version": "1.0.0",
+  "description": "A queue implementation which allows two asynchronous resources to communicate",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "start": "node .",
+    "test": "jest . --verbose"
+  },
+  "devDependencies": {
+    "eslint": "^8.27.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^27.1.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "jest": "^29.3.1",
+    "prettier": "2.7.1",
+    "prettier-plugin-apex": "1.11.0",
+    "supertest": "^6.3.1"
+  },
+  "keywords": [
+    "promise",
+    "queue",
+    "pipe",
+    "async",
+    "wait",
+    "mutex",
+    "lock",
+    "concurrent"
+  ],
+  "author": "chocof",
+  "license": "MIT"
+}
